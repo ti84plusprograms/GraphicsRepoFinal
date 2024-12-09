@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Graphics Github Master Repo/build/tutorials/tutorial_opengl/glfw-3.3/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Graphics Github Master Repo/build/tutorials/tutorial_opengl/glfw-3.3/install_manifest.txt\"")
+if (NOT EXISTS "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/install_manifest.txt\"")
 endif()
 
-file(READ "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Graphics Github Master Repo/build/tutorials/tutorial_opengl/glfw-3.3/install_manifest.txt" files)
+file(READ "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})
