@@ -118,7 +118,7 @@ public:
             if (!leaf) {
                 std::cerr << "Error: Could not load OBJ file!" << std::endl;
                 continue;
-        }
+            }
 
             // Randomize initial position
             float x = dist(gen) * 2.0f; // Random x position
@@ -228,14 +228,25 @@ public:
 
     virtual void Toggle_Next_Frame()
     {
+        float scale = 2.5 * 0.0008f; // use this to scale the leaf animation
         for (size_t i = 0; i < leaves.size(); ++i) {
-            float offset = i * 0.1f; // Slight phase offset for each leaf
+            float offset = i * 0.5f; // Slight phase offset for each leaf
             float newY = initial_positions[i].y() + 0.1f * sin(time + offset); // Animate Y around initial position
+            // newY = newY // make y position decrease over time
+            //     - 0.1f * time; // 0.1f is the speed of the leaf falling
+
+            // if (newY < -1.0f) {
+            //     // Reset to top if it falls off the screen, maintaining the sine wave motion
+            //     newY = initial_positions[i].y() + 0.1f * sin(offset); // Reset to initial position with sine wave
+            //     newY = newY // make y position decrease over time
+            //     - 0.1f * time;
+            //     //time = 0.0f; // Reset time for this leaf
+            // }
 
             Matrix4f t;
-            t << 0.0008, 0,   0, initial_positions[i].x(),  // X remains constant
-                0,   0.0008, 0, newY,                     // Animated Y
-                0,   0,   0.0008, initial_positions[i].z(), // Z remains constant
+            t << scale, 0,   0, initial_positions[i].x(),  // X remains constant
+                0,   scale, 0, newY,                     // Animated Y
+                0,   0,   scale, initial_positions[i].z(), // Z remains constant
                 0,   0,   0, 1;
 
             leaves[i]->Set_Model_Matrix(t);
