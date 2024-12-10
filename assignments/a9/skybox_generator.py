@@ -1,7 +1,16 @@
 from PIL import Image
 
+# Increase the maximum image pixels limit
+Image.MAX_IMAGE_PIXELS = None
+
+dir = "cubemap"
+
 # Load the cross-shaped image
-image = Image.open("cubemap.jpg")
+# Load the cross-shaped image, supporting both PNG and JPG formats
+try:
+    image = Image.open(f"{dir}/cubemap.png")
+except FileNotFoundError:
+    image = Image.open(f"{dir}/cubemap.jpg")
 
 # Calculate face dimensions
 face_width = image.width // 4
@@ -23,4 +32,4 @@ for face_name, (x, y) in face_positions.items():
     # Convert RGBA to RGB before saving as JPEG
     if face.mode in ('RGBA', 'P'):
         face = face.convert('RGB')
-    face.save(f"{face_name}.jpg")
+    face.save(f"{dir}/{face_name}.jpg")

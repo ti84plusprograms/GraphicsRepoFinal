@@ -162,110 +162,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named a1
-
-# Build rule for target.
-a1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1
-.PHONY : a1
-
-# fast build rule for target.
-a1/fast:
-	$(MAKE) $(MAKESILENT) -f assignments/a1/CMakeFiles/a1.dir/build.make assignments/a1/CMakeFiles/a1.dir/build
-.PHONY : a1/fast
-
-#=============================================================================
-# Target rules for targets named a2
-
-# Build rule for target.
-a2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a2
-.PHONY : a2
-
-# fast build rule for target.
-a2/fast:
-	$(MAKE) $(MAKESILENT) -f assignments/a2/CMakeFiles/a2.dir/build.make assignments/a2/CMakeFiles/a2.dir/build
-.PHONY : a2/fast
-
-#=============================================================================
-# Target rules for targets named a3
-
-# Build rule for target.
-a3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3
-.PHONY : a3
-
-# fast build rule for target.
-a3/fast:
-	$(MAKE) $(MAKESILENT) -f assignments/a3/CMakeFiles/a3.dir/build.make assignments/a3/CMakeFiles/a3.dir/build
-.PHONY : a3/fast
-
-#=============================================================================
-# Target rules for targets named a4
-
-# Build rule for target.
-a4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a4
-.PHONY : a4
-
-# fast build rule for target.
-a4/fast:
-	$(MAKE) $(MAKESILENT) -f assignments/a4/CMakeFiles/a4.dir/build.make assignments/a4/CMakeFiles/a4.dir/build
-.PHONY : a4/fast
-
-#=============================================================================
-# Target rules for targets named a5
-
-# Build rule for target.
-a5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a5
-.PHONY : a5
-
-# fast build rule for target.
-a5/fast:
-	$(MAKE) $(MAKESILENT) -f assignments/a5/CMakeFiles/a5.dir/build.make assignments/a5/CMakeFiles/a5.dir/build
-.PHONY : a5/fast
-
-#=============================================================================
-# Target rules for targets named a6
-
-# Build rule for target.
-a6: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a6
-.PHONY : a6
-
-# fast build rule for target.
-a6/fast:
-	$(MAKE) $(MAKESILENT) -f assignments/a6/CMakeFiles/a6.dir/build.make assignments/a6/CMakeFiles/a6.dir/build
-.PHONY : a6/fast
-
-#=============================================================================
-# Target rules for targets named a7
-
-# Build rule for target.
-a7: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a7
-.PHONY : a7
-
-# fast build rule for target.
-a7/fast:
-	$(MAKE) $(MAKESILENT) -f assignments/a7/CMakeFiles/a7.dir/build.make assignments/a7/CMakeFiles/a7.dir/build
-.PHONY : a7/fast
-
-#=============================================================================
-# Target rules for targets named a8
-
-# Build rule for target.
-a8: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a8
-.PHONY : a8
-
-# fast build rule for target.
-a8/fast:
-	$(MAKE) $(MAKESILENT) -f assignments/a8/CMakeFiles/a8.dir/build.make assignments/a8/CMakeFiles/a8.dir/build
-.PHONY : a8/fast
-
-#=============================================================================
 # Target rules for targets named a9
 
 # Build rule for target.
@@ -824,14 +720,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... uninstall"
-	@echo "... a1"
-	@echo "... a2"
-	@echo "... a3"
-	@echo "... a4"
-	@echo "... a5"
-	@echo "... a6"
-	@echo "... a7"
-	@echo "... a8"
 	@echo "... a9"
 	@echo "... boing"
 	@echo "... clipboard"

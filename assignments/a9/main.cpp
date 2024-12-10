@@ -106,13 +106,18 @@ public:
             skybox->Add_Shader_Program(OpenGLShaderLibrary::Get_Shader("skybox"));
             skybox->Initialize();
         }
+
+        auto tree = Add_Obj_Mesh_Object("obj/QuickMapleOptimized.obj");
+        if (!tree) {
+            std::cerr << "Error: Could not load OBJ file!" << std::endl;
+        }
         
         // Leaf Floating logic
         std::random_device rd;
         std::mt19937 gen(rd());
         std::uniform_real_distribution<float> dist(-1.0f, 1.0f);
         std::uniform_real_distribution<float> green_dist(0.7f, 1.0f);  // More green
-        std::uniform_real_distribution<float> other_dist(0.0f, 0.4f); 
+        std::uniform_real_distribution<float> other_dist(0.0f, 0.4f);
         for (int i = 0; i < 100; ++i) {
             auto leaf = Add_Obj_Mesh_Object("obj/leaf.obj");
             if (!leaf) {
