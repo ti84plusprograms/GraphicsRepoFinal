@@ -27,6 +27,7 @@ class MyDriver : public OpenGLViewer
     OpenGLBgEffect *bgEffect = nullptr;
     OpenGLSkybox *skybox = nullptr;
     std::vector<OpenGLTriangleMesh*> leaves;
+    OpenGLTriangleMesh *tree = nullptr;
     std::vector<Vector3f> initial_positions; // Add this as a class member to store initial positions
     clock_t startTime;
 
@@ -107,7 +108,7 @@ public:
             skybox->Initialize();
         }
 
-        auto tree = Add_Obj_Mesh_Object("obj/QuickMapleOptimized.obj");
+        tree = Add_Obj_Mesh_Object("obj/tree.obj");
         if (!tree) {
             std::cerr << "Error: Could not load OBJ file!" << std::endl;
         }
@@ -185,11 +186,6 @@ public:
         // leaf->Add_Shader_Program(OpenGLShaderLibrary::Get_Shader("basic"));
     
 
-
-        
-
-        
-
         //// This for-loop updates the rendering model for each object on the list
         for (auto &mesh_obj : mesh_object_array){
             Set_Polygon_Mode(mesh_obj, PolygonMode::Fill);
@@ -233,6 +229,15 @@ public:
 
     virtual void Toggle_Next_Frame()
     {
+        // tree logic
+        Matrix4f tree_t;
+        tree_t << 1, 0,   0, 0,  // Scale x
+            0,   1, 0, 0,  // Scale y
+            0,   0,   1, 0, // Scale z
+            0,   0,   0, 1;   // Homogeneous coordinate
+        tree->Set_Model_Matrix(tree_t);
+
+
         float scale = 2.5 * 0.0008f; // use this to scale the leaf animation
         for (size_t i = 0; i < leaves.size(); ++i) {
             float offset = i * 0.5f; // Slight phase offset for each leaf
