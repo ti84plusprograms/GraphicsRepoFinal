@@ -27,7 +27,6 @@ class MyDriver : public OpenGLViewer
     OpenGLBgEffect *bgEffect = nullptr;
     OpenGLSkybox *skybox = nullptr;
     std::vector<OpenGLTriangleMesh*> leaves;
-    OpenGLTriangleMesh *tree = nullptr;
     std::vector<Vector3f> initial_positions; // Add this as a class member to store initial positions
     clock_t startTime;
 
@@ -74,6 +73,10 @@ public:
         OpenGLTextureLibrary::Instance()->Add_Texture_From_File("tex/window.png", "window_color");
         OpenGLTextureLibrary::Instance()->Add_Texture_From_File("tex/buzz_color.png", "buzz_color");
         OpenGLTextureLibrary::Instance()->Add_Texture_From_File("tex/star.png", "star_color");
+        OpenGLTextureLibrary::Instance()->Add_Texture_From_File("tex/leaf.png", "leaf_color");
+        OpenGLTextureLibrary::Instance()->Add_Texture_From_File("tex/trunk.png", "trunk_color");
+
+
 
         //// Add all the lights you need for the scene (no more than 4 lights)
         //// The four parameters are position, ambient, diffuse, and specular.
@@ -108,10 +111,39 @@ public:
             skybox->Initialize();
         }
 
-        tree = Add_Obj_Mesh_Object("obj/tree.obj");
-        if (!tree) {
-            std::cerr << "Error: Could not load OBJ file!" << std::endl;
+        {
+            //// create object by reading an obj mesh
+            int tree_num = 3;
+            for (int i = 0; i < tree_num; i++) 
+            {
+                auto tree = Add_Obj_Mesh_Object("obj/tree.obj");
+                float x = i * 2.0f - 2.0f;
+                float y = 0.0f;
+                float z = 0.0f;
+
+                Matrix4f t;
+                t << 0.015, 0, 0, x,
+                    0, 0.015, 0, 0,
+                    0, 0, 0.015, 0,
+                    0, 0, 0, 1;
+                tree->Set_Model_Matrix(t);
+
+                //// set object's material
+                tree->Set_Ka(Vector3f(0.1, 0.1, 0.1));
+                tree->Set_Kd(Vector3f(0.7, 0.7, 0.7));
+                tree->Set_Ks(Vector3f(2, 2, 2));
+                tree->Set_Shininess(128);
+
+                //// bind texture to object
+                tree->Add_Texture("tex_color", OpenGLTextureLibrary::Get_Texture("leaf_color"));
+                tree->Add_Texture("tex_normal", OpenGLTextureLibrary::Get_Texture("trunk_color"));
+
+                //// bind shader to object
+                tree->Add_Shader_Program(OpenGLShaderLibrary::Get_Shader("basic"));
+            }
+
         }
+           
         
         // Leaf Floating logic
         std::random_device rd;
@@ -150,7 +182,7 @@ public:
             
             leaf->Set_Ka(leaf_color);
             leaf->Set_Kd(leaf_color);
-            leaf->Add_Texture("tex_color", OpenGLTextureLibrary::Get_Texture("sphere_color"));
+            leaf->Add_Texture("tex_color", OpenGLTextureLibrary::Get_Texture("leaf_color"));
             leaf->Set_Ks(Vector3f(1, 1, 1)); // Specular
             leaf->Set_Shininess(128);
 
@@ -229,14 +261,6 @@ public:
 
     virtual void Toggle_Next_Frame()
     {
-        // tree logic
-        Matrix4f tree_t;
-        tree_t << 1, 0,   0, 0,  // Scale x
-            0,   1, 0, 0,  // Scale y
-            0,   0,   1, 0, // Scale z
-            0,   0,   0, 1;   // Homogeneous coordinate
-        tree->Set_Model_Matrix(tree_t);
-
 
         float scale = 2.5 * 0.0008f; // use this to scale the leaf animation
         for (size_t i = 0; i < leaves.size(); ++i) {
