@@ -50,11 +50,6 @@ public:
         //// Here "shader_name" needs to be one of the shader names you created previously with Add_Shader_From_File()
 
         OpenGLShaderLibrary::Instance()->Add_Shader_From_File("shaders/basic.vert", "shaders/basic.frag", "basic");
-        OpenGLShaderLibrary::Instance()->Add_Shader_From_File("shaders/basic.vert", "shaders/environment.frag", "environment");
-        OpenGLShaderLibrary::Instance()->Add_Shader_From_File("shaders/stars.vert", "shaders/stars.frag", "stars");
-        OpenGLShaderLibrary::Instance()->Add_Shader_From_File("shaders/basic.vert", "shaders/alphablend.frag", "blend");
-        OpenGLShaderLibrary::Instance()->Add_Shader_From_File("shaders/billboard.vert", "shaders/alphablend.frag", "billboard");
-        OpenGLShaderLibrary::Instance()->Add_Shader_From_File("shaders/terrain.vert", "shaders/terrain.frag", "terrain");
         OpenGLShaderLibrary::Instance()->Add_Shader_From_File("shaders/skybox.vert", "shaders/skybox.frag", "skybox");
 
         //// Load all the textures you need for the scene
@@ -66,17 +61,9 @@ public:
         //// Here "tex_sampler" is the name of the texture sampler2D you used in your shader, and
         //// "tex_name" needs to be one of the texture names you created previously with Add_Texture_From_File()
 
-        OpenGLTextureLibrary::Instance()->Add_Texture_From_File("tex/earth_color.png", "sphere_color");
-        OpenGLTextureLibrary::Instance()->Add_Texture_From_File("tex/earth_normal.png", "sphere_normal");
-        OpenGLTextureLibrary::Instance()->Add_Texture_From_File("tex/bunny_color.jpg", "bunny_color");
-        OpenGLTextureLibrary::Instance()->Add_Texture_From_File("tex/bunny_normal.png", "bunny_normal");
-        OpenGLTextureLibrary::Instance()->Add_Texture_From_File("tex/window.png", "window_color");
-        OpenGLTextureLibrary::Instance()->Add_Texture_From_File("tex/buzz_color.png", "buzz_color");
-        OpenGLTextureLibrary::Instance()->Add_Texture_From_File("tex/star.png", "star_color");
         OpenGLTextureLibrary::Instance()->Add_Texture_From_File("tex/leaf.png", "leaf_color");
         OpenGLTextureLibrary::Instance()->Add_Texture_From_File("tex/trunk.png", "trunk_color");
-
-
+        OpenGLTextureLibrary::Instance()->Add_Texture_From_File("tex/sun.png", "sun_color");
 
         //// Add all the lights you need for the scene (no more than 4 lights)
         //// The four parameters are position, ambient, diffuse, and specular.
@@ -89,6 +76,21 @@ public:
         opengl_window->Add_Light(Vector3f(0, 0, -5), Vector3f(0.1, 0.1, 0.1), Vector3f(0.9, 0.9, 0.9), Vector3f(0.5, 0.5, 0.5));
         opengl_window->Add_Light(Vector3f(-5, 1, 3), Vector3f(0.1, 0.1, 0.1), Vector3f(0.9, 0.9, 0.9), Vector3f(0.5, 0.5, 0.5));
 
+        {
+            auto sun = Add_Obj_Mesh_Object("obj/sphere.obj");
+            Matrix4f t;
+            t << 1.5, 0, 0, -25.0,
+                0, 1.5, 0, 17.5,
+                0, 0, 1.5, -70.5,
+                0, 0, 0, 1;
+            sun->Set_Model_Matrix(t);
+            sun->Set_Ka(Vector3f(0.11, 0.11, 0.11));
+            sun->Set_Kd(Vector3f(0.71, 0.71, 0.71));
+            sun->Set_Ks(Vector3f(2, 2, 2));
+            sun->Set_Shininess(129);
+            sun->Add_Texture("tex_color", OpenGLTextureLibrary::Get_Texture("sun_color"));
+            sun->Add_Shader_Program(OpenGLShaderLibrary::Get_Shader("basic"));
+        }
 
         // Our background code goes here
         //// Background Option (3): Sky box

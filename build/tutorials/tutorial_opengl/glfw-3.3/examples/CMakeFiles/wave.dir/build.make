@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /opt/homebrew/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal"
+CMAKE_SOURCE_DIR = "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build"
+CMAKE_BINARY_DIR = "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build"
 
 # Include any dependencies generated for this target.
 include tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/depend.make
@@ -72,37 +72,37 @@ include tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/flags.ma
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/codegen:
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/codegen
 
-tutorials/tutorial_opengl/glfw-3.3/examples/wave.app/Contents/Resources/glfw.icns: /Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester\ 5\ (Fall\ 2024)/CS\ 3451\ (Computer\ Graphics)/Programming\ Assignments/9\ –\ Final\ Project/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/examples/glfw.icns
+tutorials/tutorial_opengl/glfw-3.3/examples/wave.app/Contents/Resources/glfw.icns: /Users/nninanguyenn/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/SCHOOL/CS\ 3451/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/examples/glfw.icns
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Copying OS X content tutorials/tutorial_opengl/glfw-3.3/examples/wave.app/Contents/Resources/glfw.icns"
-	$(CMAKE_COMMAND) -E copy "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/examples/glfw.icns" tutorials/tutorial_opengl/glfw-3.3/examples/wave.app/Contents/Resources/glfw.icns
+	$(CMAKE_COMMAND) -E copy "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/examples/glfw.icns" tutorials/tutorial_opengl/glfw-3.3/examples/wave.app/Contents/Resources/glfw.icns
 
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/wave.c.o: tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/flags.make
-tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/wave.c.o: /Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester\ 5\ (Fall\ 2024)/CS\ 3451\ (Computer\ Graphics)/Programming\ Assignments/9\ –\ Final\ Project/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/examples/wave.c
+tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/wave.c.o: /Users/nninanguyenn/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/SCHOOL/CS\ 3451/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/examples/wave.c
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/wave.c.o: tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/wave.c.o"
-	cd "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/wave.c.o -MF CMakeFiles/wave.dir/wave.c.o.d -o CMakeFiles/wave.dir/wave.c.o -c "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/examples/wave.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/wave.c.o"
+	cd "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/wave.c.o -MF CMakeFiles/wave.dir/wave.c.o.d -o CMakeFiles/wave.dir/wave.c.o -c "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/examples/wave.c"
 
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/wave.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/wave.dir/wave.c.i"
-	cd "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/examples/wave.c" > CMakeFiles/wave.dir/wave.c.i
+	cd "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/examples/wave.c" > CMakeFiles/wave.dir/wave.c.i
 
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/wave.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/wave.dir/wave.c.s"
-	cd "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/examples/wave.c" -o CMakeFiles/wave.dir/wave.c.s
+	cd "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/examples/wave.c" -o CMakeFiles/wave.dir/wave.c.s
 
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.o: tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/flags.make
-tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.o: /Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester\ 5\ (Fall\ 2024)/CS\ 3451\ (Computer\ Graphics)/Programming\ Assignments/9\ –\ Final\ Project/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c
+tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.o: /Users/nninanguyenn/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/SCHOOL/CS\ 3451/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.o: tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.o"
-	cd "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.o -MF CMakeFiles/wave.dir/__/deps/glad_gl.c.o.d -o CMakeFiles/wave.dir/__/deps/glad_gl.c.o -c "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.o"
+	cd "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.o -MF CMakeFiles/wave.dir/__/deps/glad_gl.c.o.d -o CMakeFiles/wave.dir/__/deps/glad_gl.c.o -c "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c"
 
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/wave.dir/__/deps/glad_gl.c.i"
-	cd "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c" > CMakeFiles/wave.dir/__/deps/glad_gl.c.i
+	cd "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c" > CMakeFiles/wave.dir/__/deps/glad_gl.c.i
 
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/wave.dir/__/deps/glad_gl.c.s"
-	cd "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c" -o CMakeFiles/wave.dir/__/deps/glad_gl.c.s
+	cd "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c" -o CMakeFiles/wave.dir/__/deps/glad_gl.c.s
 
 # Object files for target wave
 wave_OBJECTS = \
@@ -117,8 +117,8 @@ tutorials/tutorial_opengl/glfw-3.3/examples/wave.app/Contents/MacOS/wave: tutori
 tutorials/tutorial_opengl/glfw-3.3/examples/wave.app/Contents/MacOS/wave: tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/build.make
 tutorials/tutorial_opengl/glfw-3.3/examples/wave.app/Contents/MacOS/wave: tutorials/tutorial_opengl/glfw-3.3/src/libglfw3.a
 tutorials/tutorial_opengl/glfw-3.3/examples/wave.app/Contents/MacOS/wave: tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable wave.app/Contents/MacOS/wave"
-	cd "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wave.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable wave.app/Contents/MacOS/wave"
+	cd "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wave.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/build: tutorials/tutorial_opengl/glfw-3.3/examples/wave.app/Contents/MacOS/wave
@@ -126,10 +126,10 @@ tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/build: tutorials
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/build
 
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/clean:
-	cd "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" && $(CMAKE_COMMAND) -P CMakeFiles/wave.dir/cmake_clean.cmake
+	cd "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" && $(CMAKE_COMMAND) -P CMakeFiles/wave.dir/cmake_clean.cmake
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/clean
 
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/depend:
-	cd "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal" "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/examples" "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build" "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal" "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/tutorials/tutorial_opengl/glfw-3.3/examples" "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build" "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples" "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/depend
 

@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /opt/homebrew/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal"
+CMAKE_SOURCE_DIR = "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build"
+CMAKE_BINARY_DIR = "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -541,14 +541,14 @@ tutorials/tutorial_transform/clean: tutorials/tutorial_transform/CMakeFiles/tuto
 assignments/a9/CMakeFiles/a9.dir/all:
 	$(MAKE) $(MAKESILENT) -f assignments/a9/CMakeFiles/a9.dir/build.make assignments/a9/CMakeFiles/a9.dir/depend
 	$(MAKE) $(MAKESILENT) -f assignments/a9/CMakeFiles/a9.dir/build.make assignments/a9/CMakeFiles/a9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=1,2,3,4,5 "Built target a9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=1,2,3,4,5 "Built target a9"
 .PHONY : assignments/a9/CMakeFiles/a9.dir/all
 
 # Build rule for subdir invocation for target.
 assignments/a9/CMakeFiles/a9.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignments/a9/CMakeFiles/a9.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : assignments/a9/CMakeFiles/a9.dir/rule
 
 # Convenience name for target.
@@ -572,14 +572,14 @@ assignments/a9/CMakeFiles/a9.dir/clean:
 tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/all:
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/build.make tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/build.make tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=49,50,51,52,53,54 "Built target tutorial_camera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=49,50,51,52,53,54 "Built target tutorial_camera"
 .PHONY : tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/rule
 
 # Convenience name for target.
@@ -603,14 +603,14 @@ tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/clean:
 tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/all:
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/build.make tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/build.make tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=55,56,57,58,59 "Built target tutorial_cpp101"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=55,56,57,58,59 "Built target tutorial_cpp101"
 .PHONY : tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/rule
 
 # Convenience name for target.
@@ -634,14 +634,14 @@ tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/clean:
 tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/all:
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/build.make tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/build.make tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=60,61,62,63,64,65 "Built target tutorial_hello_glsl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=60,61,62,63,64,65 "Built target tutorial_hello_glsl"
 .PHONY : tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/rule
 
 # Convenience name for target.
@@ -665,14 +665,14 @@ tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/clean:
 tutorials/tutorial_lighting/CMakeFiles/tutorial_lighting.dir/all:
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_lighting/CMakeFiles/tutorial_lighting.dir/build.make tutorials/tutorial_lighting/CMakeFiles/tutorial_lighting.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_lighting/CMakeFiles/tutorial_lighting.dir/build.make tutorials/tutorial_lighting/CMakeFiles/tutorial_lighting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=66,67,68,69,70,71 "Built target tutorial_lighting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=66,67,68,69,70,71 "Built target tutorial_lighting"
 .PHONY : tutorials/tutorial_lighting/CMakeFiles/tutorial_lighting.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_lighting/CMakeFiles/tutorial_lighting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_lighting/CMakeFiles/tutorial_lighting.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_lighting/CMakeFiles/tutorial_lighting.dir/rule
 
 # Convenience name for target.
@@ -696,14 +696,14 @@ tutorials/tutorial_lighting/CMakeFiles/tutorial_lighting.dir/clean:
 tutorials/tutorial_matrix/CMakeFiles/matrix.dir/all:
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_matrix/CMakeFiles/matrix.dir/build.make tutorials/tutorial_matrix/CMakeFiles/matrix.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_matrix/CMakeFiles/matrix.dir/build.make tutorials/tutorial_matrix/CMakeFiles/matrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=31 "Built target matrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=31 "Built target matrix"
 .PHONY : tutorials/tutorial_matrix/CMakeFiles/matrix.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_matrix/CMakeFiles/matrix.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_matrix/CMakeFiles/matrix.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_matrix/CMakeFiles/matrix.dir/rule
 
 # Convenience name for target.
@@ -727,14 +727,14 @@ tutorials/tutorial_matrix/CMakeFiles/matrix.dir/clean:
 tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/all:
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/build.make tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/build.make tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=72,73,74,75,76 "Built target tutorial_mesh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=72,73,74,75,76 "Built target tutorial_mesh"
 .PHONY : tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/rule
 
 # Convenience name for target.
@@ -758,14 +758,14 @@ tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/clean:
 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=77,78 "Built target tutorial_opengl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=77,78 "Built target tutorial_opengl"
 .PHONY : tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/rule
 
 # Convenience name for target.
@@ -789,14 +789,14 @@ tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/build.make tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/build.make tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num= "Built target uninstall"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -820,14 +820,14 @@ tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/build.make tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/build.make tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=16,17,18,19,20,21 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=16,17,18,19,20,21 "Built target glfw"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -851,14 +851,14 @@ tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/boing.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/boing.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/boing.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/boing.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/boing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=6,7 "Built target boing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=6,7 "Built target boing"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/boing.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/boing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/boing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/boing.dir/rule
 
 # Convenience name for target.
@@ -882,14 +882,14 @@ tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/boing.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/gears.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/gears.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/gears.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/gears.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/gears.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=15 "Built target gears"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=15 "Built target gears"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/gears.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/gears.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/gears.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/gears.dir/rule
 
 # Convenience name for target.
@@ -913,14 +913,14 @@ tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/gears.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/heightmap.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/heightmap.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/heightmap.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/heightmap.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/heightmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=24,25 "Built target heightmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=24,25 "Built target heightmap"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/heightmap.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/heightmap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/heightmap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/heightmap.dir/rule
 
 # Convenience name for target.
@@ -944,14 +944,14 @@ tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/heightmap.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/offscreen.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/offscreen.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/offscreen.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/offscreen.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/offscreen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=35 "Built target offscreen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=35 "Built target offscreen"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/offscreen.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/offscreen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/offscreen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/offscreen.dir/rule
 
 # Convenience name for target.
@@ -975,14 +975,14 @@ tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/offscreen.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=37,38 "Built target particles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=37,38 "Built target particles"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/rule
 
 # Convenience name for target.
@@ -1006,14 +1006,14 @@ tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=41 "Built target sharing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=41 "Built target sharing"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/rule
 
 # Convenience name for target.
@@ -1037,14 +1037,14 @@ tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/simple.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/simple.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/simple.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/simple.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/simple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=42 "Built target simple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=42 "Built target simple"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/simple.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/simple.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/simple.dir/rule
 
 # Convenience name for target.
@@ -1068,14 +1068,14 @@ tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/simple.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/splitview.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/splitview.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/splitview.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/splitview.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/splitview.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=43 "Built target splitview"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=43 "Built target splitview"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/splitview.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/splitview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/splitview.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/splitview.dir/rule
 
 # Convenience name for target.
@@ -1099,14 +1099,14 @@ tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/splitview.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/build.make tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=98 "Built target wave"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=98 "Built target wave"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/rule
 
 # Convenience name for target.
@@ -1130,14 +1130,14 @@ tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/wave.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/clipboard.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/clipboard.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/clipboard.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/clipboard.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/clipboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=8 "Built target clipboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=8 "Built target clipboard"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/clipboard.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/clipboard.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/clipboard.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/clipboard.dir/rule
 
 # Convenience name for target.
@@ -1161,14 +1161,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/clipboard.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/events.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/events.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/events.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/events.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/events.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=12,13 "Built target events"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=12,13 "Built target events"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/events.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/events.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/events.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/events.dir/rule
 
 # Convenience name for target.
@@ -1192,14 +1192,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/events.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/msaa.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/msaa.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/msaa.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/msaa.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/msaa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=33,34 "Built target msaa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=33,34 "Built target msaa"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/msaa.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/msaa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/msaa.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/msaa.dir/rule
 
 # Convenience name for target.
@@ -1223,14 +1223,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/msaa.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/glfwinfo.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/glfwinfo.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/glfwinfo.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/glfwinfo.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/glfwinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=22,23 "Built target glfwinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=22,23 "Built target glfwinfo"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/glfwinfo.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/glfwinfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/glfwinfo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/glfwinfo.dir/rule
 
 # Convenience name for target.
@@ -1254,14 +1254,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/glfwinfo.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/iconify.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/iconify.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/iconify.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/iconify.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/iconify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=27 "Built target iconify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=27 "Built target iconify"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/iconify.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/iconify.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/iconify.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/iconify.dir/rule
 
 # Convenience name for target.
@@ -1285,14 +1285,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/iconify.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/monitors.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/monitors.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/monitors.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/monitors.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/monitors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=32 "Built target monitors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=32 "Built target monitors"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/monitors.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/monitors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/monitors.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/monitors.dir/rule
 
 # Convenience name for target.
@@ -1316,14 +1316,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/monitors.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/reopen.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/reopen.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/reopen.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/reopen.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/reopen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=39,40 "Built target reopen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=39,40 "Built target reopen"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/reopen.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/reopen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/reopen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/reopen.dir/rule
 
 # Convenience name for target.
@@ -1347,14 +1347,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/reopen.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/cursor.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/cursor.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/cursor.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/cursor.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/cursor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=9 "Built target cursor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=9 "Built target cursor"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/cursor.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/cursor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/cursor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/cursor.dir/rule
 
 # Convenience name for target.
@@ -1378,14 +1378,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/cursor.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/empty.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/empty.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/empty.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/empty.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/empty.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=10,11 "Built target empty"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=10,11 "Built target empty"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/empty.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/empty.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/empty.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/empty.dir/rule
 
 # Convenience name for target.
@@ -1409,14 +1409,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/empty.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/gamma.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/gamma.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/gamma.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/gamma.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/gamma.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=14 "Built target gamma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=14 "Built target gamma"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/gamma.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/gamma.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/gamma.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/gamma.dir/rule
 
 # Convenience name for target.
@@ -1440,14 +1440,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/gamma.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=26 "Built target icon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=26 "Built target icon"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/rule
 
 # Convenience name for target.
@@ -1471,14 +1471,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/inputlag.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/inputlag.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/inputlag.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/inputlag.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/inputlag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=28,29 "Built target inputlag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=28,29 "Built target inputlag"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/inputlag.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/inputlag.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/inputlag.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/inputlag.dir/rule
 
 # Convenience name for target.
@@ -1502,14 +1502,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/inputlag.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/joysticks.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/joysticks.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/joysticks.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/joysticks.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/joysticks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=30 "Built target joysticks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=30 "Built target joysticks"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/joysticks.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/joysticks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/joysticks.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/joysticks.dir/rule
 
 # Convenience name for target.
@@ -1533,14 +1533,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/joysticks.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/opacity.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/opacity.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/opacity.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/opacity.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/opacity.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=36 "Built target opacity"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=36 "Built target opacity"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/opacity.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/opacity.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/opacity.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/opacity.dir/rule
 
 # Convenience name for target.
@@ -1564,14 +1564,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/opacity.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/tearing.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/tearing.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/tearing.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/tearing.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/tearing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=44 "Built target tearing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=44 "Built target tearing"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/tearing.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/tearing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/tearing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/tearing.dir/rule
 
 # Convenience name for target.
@@ -1595,14 +1595,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/tearing.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/threads.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/threads.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/threads.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/threads.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/threads.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=45,46 "Built target threads"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=45,46 "Built target threads"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/threads.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/threads.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/threads.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/threads.dir/rule
 
 # Convenience name for target.
@@ -1626,14 +1626,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/threads.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/timeout.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/timeout.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/timeout.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/timeout.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/timeout.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=47 "Built target timeout"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=47 "Built target timeout"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/timeout.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/timeout.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/timeout.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/timeout.dir/rule
 
 # Convenience name for target.
@@ -1657,14 +1657,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/timeout.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/title.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/title.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/title.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/title.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/title.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=48 "Built target title"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=48 "Built target title"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/title.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/title.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/title.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/title.dir/rule
 
 # Convenience name for target.
@@ -1688,14 +1688,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/title.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/vulkan.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/vulkan.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/vulkan.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/vulkan.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/vulkan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=97 "Built target vulkan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=97 "Built target vulkan"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/vulkan.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/vulkan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/vulkan.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/vulkan.dir/rule
 
 # Convenience name for target.
@@ -1719,14 +1719,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/vulkan.dir/clean:
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/windows.dir/all: tutorials/tutorial_opengl/glfw-3.3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/windows.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/windows.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/windows.dir/build.make tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/windows.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=99,100 "Built target windows"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=99,100 "Built target windows"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/windows.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/windows.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/windows.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/windows.dir/rule
 
 # Convenience name for target.
@@ -1750,14 +1750,14 @@ tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/windows.dir/clean:
 tutorials/tutorial_shader_programming/CMakeFiles/tutorial_shader_programming.dir/all:
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_shader_programming/CMakeFiles/tutorial_shader_programming.dir/build.make tutorials/tutorial_shader_programming/CMakeFiles/tutorial_shader_programming.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_shader_programming/CMakeFiles/tutorial_shader_programming.dir/build.make tutorials/tutorial_shader_programming/CMakeFiles/tutorial_shader_programming.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=79,80,81,82,83,84 "Built target tutorial_shader_programming"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=79,80,81,82,83,84 "Built target tutorial_shader_programming"
 .PHONY : tutorials/tutorial_shader_programming/CMakeFiles/tutorial_shader_programming.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_shader_programming/CMakeFiles/tutorial_shader_programming.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_shader_programming/CMakeFiles/tutorial_shader_programming.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_shader_programming/CMakeFiles/tutorial_shader_programming.dir/rule
 
 # Convenience name for target.
@@ -1781,14 +1781,14 @@ tutorials/tutorial_shader_programming/CMakeFiles/tutorial_shader_programming.dir
 tutorials/tutorial_texture/CMakeFiles/tutorial_texture.dir/all:
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_texture/CMakeFiles/tutorial_texture.dir/build.make tutorials/tutorial_texture/CMakeFiles/tutorial_texture.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_texture/CMakeFiles/tutorial_texture.dir/build.make tutorials/tutorial_texture/CMakeFiles/tutorial_texture.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=85,86,87,88,89,90 "Built target tutorial_texture"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=85,86,87,88,89,90 "Built target tutorial_texture"
 .PHONY : tutorials/tutorial_texture/CMakeFiles/tutorial_texture.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_texture/CMakeFiles/tutorial_texture.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_texture/CMakeFiles/tutorial_texture.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_texture/CMakeFiles/tutorial_texture.dir/rule
 
 # Convenience name for target.
@@ -1812,14 +1812,14 @@ tutorials/tutorial_texture/CMakeFiles/tutorial_texture.dir/clean:
 tutorials/tutorial_transform/CMakeFiles/tutorial_transform.dir/all:
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_transform/CMakeFiles/tutorial_transform.dir/build.make tutorials/tutorial_transform/CMakeFiles/tutorial_transform.dir/depend
 	$(MAKE) $(MAKESILENT) -f tutorials/tutorial_transform/CMakeFiles/tutorial_transform.dir/build.make tutorials/tutorial_transform/CMakeFiles/tutorial_transform.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" --progress-num=91,92,93,94,95,96 "Built target tutorial_transform"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" --progress-num=91,92,93,94,95,96 "Built target tutorial_transform"
 .PHONY : tutorials/tutorial_transform/CMakeFiles/tutorial_transform.dir/all
 
 # Build rule for subdir invocation for target.
 tutorials/tutorial_transform/CMakeFiles/tutorial_transform.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_transform/CMakeFiles/tutorial_transform.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/build/CMakeFiles" 0
 .PHONY : tutorials/tutorial_transform/CMakeFiles/tutorial_transform.dir/rule
 
 # Convenience name for target.
