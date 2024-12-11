@@ -115,11 +115,13 @@ public:
 
         {
             //// create object by reading an obj mesh
-            int tree_num = 3;
+            int tree_num = 9;
+            float spacing = 1.0f;
+            float center_offset = (tree_num - 1) * spacing / 2.0f;
             for (int i = 0; i < tree_num; i++) 
             {
                 auto tree = Add_Obj_Mesh_Object("obj/tree.obj");
-                float x = i * 2.0f - 2.0f;
+                float x = i * spacing - center_offset;
                 float y = 0.0f;
                 float z = 0.0f;
 
@@ -137,8 +139,7 @@ public:
                 tree->Set_Shininess(128);
 
                 //// bind texture to object
-                tree->Add_Texture("tex_color", OpenGLTextureLibrary::Get_Texture("leaf_color"));
-                tree->Add_Texture("tex_normal", OpenGLTextureLibrary::Get_Texture("trunk_color"));
+                tree->Add_Texture("tex_color", OpenGLTextureLibrary::Get_Texture("trunk_color"));
 
                 //// bind shader to object
                 tree->Add_Shader_Program(OpenGLShaderLibrary::Get_Shader("basic"));
