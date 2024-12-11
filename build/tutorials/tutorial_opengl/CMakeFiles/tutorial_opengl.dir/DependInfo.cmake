@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/tutorials/tutorial_opengl/glad/glad.cpp" "tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o" "gcc" "tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o.d"
-  "/Users/ary/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Semester 5 (Fall 2024)/CS 3451 (Computer Graphics)/Programming Assignments/9 – Final Project/GraphicsRepoFinal/tutorials/tutorial_opengl/main.cpp" "tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o" "gcc" "tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o.d"
+  "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/tutorials/tutorial_opengl/glad/glad.cpp" "tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o" "gcc" "tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o.d"
+  "/Users/nninanguyenn/Library/Mobile Documents/com~apple~CloudDocs/Documents/SCHOOL/CS 3451/GraphicsRepoFinal/tutorials/tutorial_opengl/main.cpp" "tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o" "gcc" "tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
