@@ -71,4 +71,27 @@ void main()
     vec3 texture_color = texture(tex_color, vtx_uv).rgb;
 
     frag_color = vec4(texture_color.rgb, 1.0);
+
+    vec3 e_dir = normalize(e - p);
+    vec3 result = ka * amb.xyz;
+    int num_lights = lt_att[0];
+
+    for(int i = 0; i < num_lights; i++)
+    {
+        vec3 l_dir = normalize(lt[i].pos.xyz - p);
+
+        float diff = max(dot(N, l_dir), 0.0);
+
+        vec3 r_dir = reflect(-l_dir, N);
+        float spec = pow(max(dot(r_dir, e_dir), 0.0), shininess);
+
+        vec3 ambient  = ka * lt[i].amb.xyz;
+        vec3 diffuse  = kd * diff * lt[i].dif.xyz;
+        vec3 specular = ks * spec * lt[i].spec.xyz;
+
+        result += ambient + diffuse + specular;
+    }
+
+    result *= texture_color;
+    frag_color = vec4(result, 1.0);
 }
